@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CycleViewController2">
+            <connections>
+                <outlet property="msgLabel2" destination="mnk-nD-ZWh" id="WAj-hW-k1V"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="实现任何形式跑马灯" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBI-TW-fuZ">
+                    <rect key="frame" x="107" y="59" width="160" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="MpX-wy-Fcw"/>
+                        <constraint firstAttribute="height" constant="26" id="Xrv-XZ-cWS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnk-nD-ZWh">
+                    <rect key="frame" x="8" y="102" width="359" height="140"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="BNm-Zz-c0n"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tBI-TW-fuZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="59" id="6dK-02-Mka"/>
+                <constraint firstItem="mnk-nD-ZWh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="74w-za-d6T"/>
+                <constraint firstItem="mnk-nD-ZWh" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="HQO-hw-odR"/>
+                <constraint firstItem="tBI-TW-fuZ" firstAttribute="centerX" secondItem="mnk-nD-ZWh" secondAttribute="centerX" id="ZCH-7g-QqB"/>
+                <constraint firstItem="mnk-nD-ZWh" firstAttribute="top" secondItem="tBI-TW-fuZ" secondAttribute="bottom" constant="17" id="eQ3-s8-CHr"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="199.5" y="231.5"/>
+        </view>
+    </objects>
+</document>

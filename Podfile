@@ -1,0 +1,27 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, "8.0"
+target "DaGongiOSMobileFrameWork" do
+pod 'SVProgressHUD', '1.1.3'
+pod 'AMap3DMap'
+pod 'AMapSearch'
+pod 'AMapLocation'
+pod 'CocoaLumberjack'
+pod 'AFNetworking'
+pod 'CYLTabBarController'
+pod 'MJRefresh'
+pod 'PNChart'
+pod 'TEAChart'
+pod 'MBProgressHUD'
+pod 'FMDB'
+pod 'SDWebImage'
+pod 'HMSegmentedControl'
+pod 'Masonry'
+pod 'MMPlaceHolder'
+pod 'MMPopupView'
+pod 'SDCycleScrollView'
+pod 'JVFloatingDrawer'
+pod 'RealReachability'
+pod 'IQDropDownTextField'
+pod 'WebViewJavascriptBridge', '~> 5.0'
+end
